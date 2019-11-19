@@ -1,0 +1,1910 @@
+2019-09-26 15:59:26,227 ERROR 22926 [-/127.0.0.1/-/23ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 22926
+hostname: hydeiMac.local
+
+2019-09-26 16:01:24,274 ERROR 22943 [-/127.0.0.1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 22943
+hostname: hydeiMac.local
+
+2019-09-26 16:01:34,047 ERROR 22943 [-/127.0.0.1/-/8ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 22943
+hostname: hydeiMac.local
+
+2019-09-26 16:18:06,360 ERROR 23053 [-/127.0.0.1/-/22ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 23053
+hostname: hydeiMac.local
+
+2019-09-26 16:18:08,878 ERROR 23053 [-/127.0.0.1/-/27ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 23053
+hostname: hydeiMac.local
+
+2019-09-26 16:18:09,607 ERROR 23053 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 23053
+hostname: hydeiMac.local
+
+2019-09-26 16:18:13,772 ERROR 23053 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 23053
+hostname: hydeiMac.local
+
+2019-09-26 16:34:22,053 ERROR 23076 [-/127.0.0.1/-/6ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 23076
+hostname: hydeiMac.local
+
+2019-09-26 16:35:48,433 ERROR 23091 [-/127.0.0.1/-/7ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 23091
+hostname: hydeiMac.local
+
+2019-09-26 16:37:23,495 ERROR 23099 [-/127.0.0.1/-/6ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 23099
+hostname: hydeiMac.local
+
+2019-09-26 16:40:20,954 ERROR 23122 [-/127.0.0.1/-/7ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 23122
+hostname: hydeiMac.local
+
+2019-09-26 16:44:44,888 ERROR 23135 [-/127.0.0.1/-/7ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 23135
+hostname: hydeiMac.local
+
+2019-09-26 16:51:29,689 ERROR 23179 [-/127.0.0.1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 23179
+hostname: hydeiMac.local
+
+2019-09-26 16:53:02,861 ERROR 23201 [-/127.0.0.1/-/7ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 23201
+hostname: hydeiMac.local
+
+2019-09-26 17:09:16,235 ERROR 23253 [-/127.0.0.1/-/7ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/hy/Desktop/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/hy/Desktop/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/hy/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/hy/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/hy/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 23253
+hostname: hydeiMac.local
+
+2019-11-15 15:36:39,859 ERROR 21379 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: ctx is not defined
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:44:13)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21379
+hostname: hydeiMac.local
+
+2019-11-15 15:37:41,614 ERROR 21385 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 0.0.0.0:9000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "0.0.0.0"
+port: 9000
+config: {"url":"http://0.0.0.0:9000/public/vue-ssr-client-manifest.json","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/public/vue-ssr-client-manifest.json","method":"GET","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.0"},"hostname":"0.0.0.0","port":"9000","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Unordered Collection","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":{"_events":{},"_eventsCount":1,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"0.0.0.0:9000:":[{"connecting":false,"_hadError":true,"_handle":null,"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":false,"emitClose":false,"autoDestroy":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"connect":[null,null,null],"close":[null,null]},"_eventsCount":7,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":true,"decodeStrings":false,"defaultEncoding":"utf8","length":161,"writing":true,"corked":0,"sync":false,"bufferProcessing":false,"writelen":161,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":1,"prefinished":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":"GET /public/vue-ssr-client-manifest.json HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.0\r\nHost: 0.0.0.0:9000\r\nConnection: close\r\n\r\n","_pendingEncoding":"latin1","server":null,"_server":null,"parser":null,"_httpMessage":{"_events":{},"_eventsCount":6,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":false,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":0,"_hasBody":true,"_trailer":"","finished":true,"_headerSent":true,"socket":"~_options~nativeProtocols~http:~globalAgent~sockets~0.0.0.0:9000:~0","connection":"~_options~nativeProtocols~http:~globalAgent~sockets~0.0.0.0:9000:~0","_header":"GET /public/vue-ssr-client-manifest.json HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.0\r\nHost: 0.0.0.0:9000\r\nConnection: close\r\n\r\n","agent":"~_options~nativeProtocols~http:~globalAgent","method":"GET","path":"/public/vue-ssr-client-manifest.json","_ended":false,"res":null,"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"_redirectable":"~"}}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256}},"https:":{"globalAgent":{"_events":{},"_eventsCount":1,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/public/vue-ssr-client-manifest.json"},"_redirectCount":0,"_redirects":[],"_requestBodyLength":0,"_requestBodyBuffers":[],"_currentRequest":"~_options~nativeProtocols~http:~globalAgent~sockets~0.0.0.0:9000:~0~_httpMessage","_currentUrl":"http://0.0.0.0:9000/public/vue-ssr-client-manifest.json"}
+response: undefined
+isAxiosError: true
+toJSON: undefined
+name: "ECONNREFUSEDError"
+pid: 21385
+hostname: hydeiMac.local
+
+2019-11-15 15:38:51,160 ERROR 21410 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 0.0.0.0:9000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "0.0.0.0"
+port: 9000
+config: {"url":"http://0.0.0.0:9000/public/vue-ssr-client-manifest.json","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/public/vue-ssr-client-manifest.json","method":"GET","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.0"},"hostname":"0.0.0.0","port":"9000","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Unordered Collection","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":{"_events":{},"_eventsCount":1,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"0.0.0.0:9000:":[{"connecting":false,"_hadError":true,"_handle":null,"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":false,"emitClose":false,"autoDestroy":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"connect":[null,null,null],"close":[null,null]},"_eventsCount":7,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":true,"decodeStrings":false,"defaultEncoding":"utf8","length":161,"writing":true,"corked":0,"sync":false,"bufferProcessing":false,"writelen":161,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":1,"prefinished":false,"errorEmitted":true,"emitClose":false,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":"GET /public/vue-ssr-client-manifest.json HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.0\r\nHost: 0.0.0.0:9000\r\nConnection: close\r\n\r\n","_pendingEncoding":"latin1","server":null,"_server":null,"parser":null,"_httpMessage":{"_events":{},"_eventsCount":6,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":false,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":0,"_hasBody":true,"_trailer":"","finished":true,"_headerSent":true,"socket":"~_options~nativeProtocols~http:~globalAgent~sockets~0.0.0.0:9000:~0","connection":"~_options~nativeProtocols~http:~globalAgent~sockets~0.0.0.0:9000:~0","_header":"GET /public/vue-ssr-client-manifest.json HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.0\r\nHost: 0.0.0.0:9000\r\nConnection: close\r\n\r\n","agent":"~_options~nativeProtocols~http:~globalAgent","method":"GET","path":"/public/vue-ssr-client-manifest.json","_ended":false,"res":null,"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"_redirectable":"~"}}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256}},"https:":{"globalAgent":{"_events":{},"_eventsCount":1,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/public/vue-ssr-client-manifest.json"},"_redirectCount":0,"_redirects":[],"_requestBodyLength":0,"_requestBodyBuffers":[],"_currentRequest":"~_options~nativeProtocols~http:~globalAgent~sockets~0.0.0.0:9000:~0~_httpMessage","_currentUrl":"http://0.0.0.0:9000/public/vue-ssr-client-manifest.json"}
+response: undefined
+isAxiosError: true
+toJSON: undefined
+name: "ECONNREFUSEDError"
+pid: 21410
+hostname: hydeiMac.local
+
+2019-11-15 15:40:28,124 ERROR 21425 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Request failed with status code 404
+    at createError (/Users/hy/Desktop/egg-demo/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/hy/Desktop/egg-demo/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/hy/Desktop/egg-demo/node_modules/axios/lib/adapters/http.js:237:11)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+config: {"url":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_events":{},"_eventsCount":6,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":false,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":0,"_hasBody":true,"_trailer":"","finished":true,"_headerSent":true,"socket":{"connecting":false,"_hadError":false,"_handle":{"reading":true,"onconnection":null},"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":false,"emitClose":false,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{"close":[null,null]},"_eventsCount":7,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":true,"needDrain":false,"ending":true,"ended":true,"finished":false,"destroyed":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":false,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":1,"prefinished":false,"errorEmitted":false,"emitClose":false,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":null,"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":"~"},"connection":"~socket","_header":"GET /public/vue-ssr-client-manifest.json HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.0\r\nHost: 0.0.0.0:9001\r\nConnection: close\r\n\r\n","agent":{"_events":{},"_eventsCount":1,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"0.0.0.0:9001:":["~socket"]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256},"method":"GET","path":"/public/vue-ssr-client-manifest.json","_ended":true,"res":{"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":true,"endEmitted":true,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":false,"emitClose":true,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":true,"decoder":null,"encoding":null},"readable":false,"_events":{"end":[null,null]},"_eventsCount":3,"socket":"~socket","connection":"~socket","httpVersionMajor":1,"httpVersionMinor":1,"httpVersion":"1.1","complete":true,"headers":{"x-powered-by":"Express","content-security-policy":"default-src 'none'","x-content-type-options":"nosniff","content-type":"text/html; charset=utf-8","content-length":"174","date":"Fri, 15 Nov 2019 07:40:28 GMT","connection":"close"},"rawHeaders":["X-Powered-By","Express","Content-Security-Policy","default-src 'none'","X-Content-Type-Options","nosniff","Content-Type","text/html; charset=utf-8","Content-Length","174","Date","Fri, 15 Nov 2019 07:40:28 GMT","Connection","close"],"trailers":{},"rawTrailers":[],"aborted":false,"upgrade":false,"url":"","method":null,"statusCode":404,"statusMessage":"Not Found","client":"~socket","_consuming":false,"_dumped":false,"req":"~","responseUrl":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json","redirects":[]},"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"_redirectable":{"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/public/vue-ssr-client-manifest.json","method":"GET","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.0"},"hostname":"0.0.0.0","port":"9001","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Unordered Collection","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":"~agent"},"https:":{"globalAgent":{"_events":{},"_eventsCount":1,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/public/vue-ssr-client-manifest.json"},"_redirectCount":0,"_redirects":"~res~redirects","_requestBodyLength":0,"_requestBodyBuffers":[],"_currentRequest":"~","_currentUrl":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json"}}
+response: {"status":404,"statusText":"Not Found","headers":{"x-powered-by":"Express","content-security-policy":"default-src 'none'","x-content-type-options":"nosniff","content-type":"text/html; charset=utf-8","content-length":"174","date":"Fri, 15 Nov 2019 07:40:28 GMT","connection":"close"},"config":{"url":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1},"request":{"_events":{},"_eventsCount":6,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":false,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":0,"_hasBody":true,"_trailer":"","finished":true,"_headerSent":true,"socket":{"connecting":false,"_hadError":false,"_handle":{"reading":true,"onconnection":null},"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":false,"emitClose":false,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{"close":[null,null]},"_eventsCount":7,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":true,"needDrain":false,"ending":true,"ended":true,"finished":false,"destroyed":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":false,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":1,"prefinished":false,"errorEmitted":false,"emitClose":false,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":null,"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":"~request"},"connection":"~request~socket","_header":"GET /public/vue-ssr-client-manifest.json HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.0\r\nHost: 0.0.0.0:9001\r\nConnection: close\r\n\r\n","agent":{"_events":{},"_eventsCount":1,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"0.0.0.0:9001:":["~request~socket"]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256},"method":"GET","path":"/public/vue-ssr-client-manifest.json","_ended":true,"res":{"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":true,"endEmitted":true,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":false,"emitClose":true,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":true,"decoder":null,"encoding":null},"readable":false,"_events":{"end":[null,null]},"_eventsCount":3,"socket":"~request~socket","connection":"~request~socket","httpVersionMajor":1,"httpVersionMinor":1,"httpVersion":"1.1","complete":true,"headers":"~headers","rawHeaders":["X-Powered-By","Express","Content-Security-Policy","default-src 'none'","X-Content-Type-Options","nosniff","Content-Type","text/html; charset=utf-8","Content-Length","174","Date","Fri, 15 Nov 2019 07:40:28 GMT","Connection","close"],"trailers":{},"rawTrailers":[],"aborted":false,"upgrade":false,"url":"","method":null,"statusCode":404,"statusMessage":"Not Found","client":"~request~socket","_consuming":false,"_dumped":false,"req":"~request","responseUrl":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json","redirects":[]},"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"_redirectable":{"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/public/vue-ssr-client-manifest.json","method":"GET","headers":"~config~headers","hostname":"0.0.0.0","port":"9001","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Unordered Collection","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":"~request~agent"},"https:":{"globalAgent":{"_events":{},"_eventsCount":1,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/public/vue-ssr-client-manifest.json"},"_redirectCount":0,"_redirects":"~request~res~redirects","_requestBodyLength":0,"_requestBodyBuffers":[],"_currentRequest":"~request","_currentUrl":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json"}},"data":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /public/vue-ssr-client-manifest.json</pre>\n</body>\n</html>\n"}
+isAxiosError: true
+toJSON: undefined
+pid: 21425
+hostname: hydeiMac.local
+
+2019-11-15 15:42:57,961 ERROR 21445 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Request failed with status code 404
+    at createError (/Users/hy/Desktop/egg-demo/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/hy/Desktop/egg-demo/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/hy/Desktop/egg-demo/node_modules/axios/lib/adapters/http.js:237:11)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+config: {"url":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_events":{},"_eventsCount":6,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":false,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":0,"_hasBody":true,"_trailer":"","finished":true,"_headerSent":true,"socket":{"connecting":false,"_hadError":false,"_handle":{"reading":true,"onconnection":null},"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":false,"emitClose":false,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{"close":[null,null]},"_eventsCount":7,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":true,"needDrain":false,"ending":true,"ended":true,"finished":false,"destroyed":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":false,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":1,"prefinished":false,"errorEmitted":false,"emitClose":false,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":null,"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":"~"},"connection":"~socket","_header":"GET /public/vue-ssr-client-manifest.json HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.0\r\nHost: 0.0.0.0:9001\r\nConnection: close\r\n\r\n","agent":{"_events":{},"_eventsCount":1,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"0.0.0.0:9001:":["~socket"]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256},"method":"GET","path":"/public/vue-ssr-client-manifest.json","_ended":true,"res":{"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":true,"endEmitted":true,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":false,"emitClose":true,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":true,"decoder":null,"encoding":null},"readable":false,"_events":{"end":[null,null]},"_eventsCount":3,"socket":"~socket","connection":"~socket","httpVersionMajor":1,"httpVersionMinor":1,"httpVersion":"1.1","complete":true,"headers":{"x-powered-by":"Express","content-security-policy":"default-src 'none'","x-content-type-options":"nosniff","content-type":"text/html; charset=utf-8","content-length":"174","date":"Fri, 15 Nov 2019 07:42:57 GMT","connection":"close"},"rawHeaders":["X-Powered-By","Express","Content-Security-Policy","default-src 'none'","X-Content-Type-Options","nosniff","Content-Type","text/html; charset=utf-8","Content-Length","174","Date","Fri, 15 Nov 2019 07:42:57 GMT","Connection","close"],"trailers":{},"rawTrailers":[],"aborted":false,"upgrade":false,"url":"","method":null,"statusCode":404,"statusMessage":"Not Found","client":"~socket","_consuming":false,"_dumped":false,"req":"~","responseUrl":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json","redirects":[]},"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"_redirectable":{"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/public/vue-ssr-client-manifest.json","method":"GET","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.0"},"hostname":"0.0.0.0","port":"9001","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Unordered Collection","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":"~agent"},"https:":{"globalAgent":{"_events":{},"_eventsCount":1,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/public/vue-ssr-client-manifest.json"},"_redirectCount":0,"_redirects":"~res~redirects","_requestBodyLength":0,"_requestBodyBuffers":[],"_currentRequest":"~","_currentUrl":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json"}}
+response: {"status":404,"statusText":"Not Found","headers":{"x-powered-by":"Express","content-security-policy":"default-src 'none'","x-content-type-options":"nosniff","content-type":"text/html; charset=utf-8","content-length":"174","date":"Fri, 15 Nov 2019 07:42:57 GMT","connection":"close"},"config":{"url":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1},"request":{"_events":{},"_eventsCount":6,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":false,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":0,"_hasBody":true,"_trailer":"","finished":true,"_headerSent":true,"socket":{"connecting":false,"_hadError":false,"_handle":{"reading":true,"onconnection":null},"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":false,"emitClose":false,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{"close":[null,null]},"_eventsCount":7,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":true,"needDrain":false,"ending":true,"ended":true,"finished":false,"destroyed":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":false,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":1,"prefinished":false,"errorEmitted":false,"emitClose":false,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":null,"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":"~request"},"connection":"~request~socket","_header":"GET /public/vue-ssr-client-manifest.json HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.0\r\nHost: 0.0.0.0:9001\r\nConnection: close\r\n\r\n","agent":{"_events":{},"_eventsCount":1,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"0.0.0.0:9001:":["~request~socket"]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256},"method":"GET","path":"/public/vue-ssr-client-manifest.json","_ended":true,"res":{"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":true,"endEmitted":true,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":false,"emitClose":true,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":true,"decoder":null,"encoding":null},"readable":false,"_events":{"end":[null,null]},"_eventsCount":3,"socket":"~request~socket","connection":"~request~socket","httpVersionMajor":1,"httpVersionMinor":1,"httpVersion":"1.1","complete":true,"headers":"~headers","rawHeaders":["X-Powered-By","Express","Content-Security-Policy","default-src 'none'","X-Content-Type-Options","nosniff","Content-Type","text/html; charset=utf-8","Content-Length","174","Date","Fri, 15 Nov 2019 07:42:57 GMT","Connection","close"],"trailers":{},"rawTrailers":[],"aborted":false,"upgrade":false,"url":"","method":null,"statusCode":404,"statusMessage":"Not Found","client":"~request~socket","_consuming":false,"_dumped":false,"req":"~request","responseUrl":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json","redirects":[]},"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"_redirectable":{"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/public/vue-ssr-client-manifest.json","method":"GET","headers":"~config~headers","hostname":"0.0.0.0","port":"9001","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Unordered Collection","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":"~request~agent"},"https:":{"globalAgent":{"_events":{},"_eventsCount":1,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/public/vue-ssr-client-manifest.json"},"_redirectCount":0,"_redirects":"~request~res~redirects","_requestBodyLength":0,"_requestBodyBuffers":[],"_currentRequest":"~request","_currentUrl":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json"}},"data":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /public/vue-ssr-client-manifest.json</pre>\n</body>\n</html>\n"}
+isAxiosError: true
+toJSON: undefined
+pid: 21445
+hostname: hydeiMac.local
+
+2019-11-15 15:47:31,315 ERROR 21484 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Request failed with status code 404
+    at createError (/Users/hy/Desktop/egg-demo/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/hy/Desktop/egg-demo/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/hy/Desktop/egg-demo/node_modules/axios/lib/adapters/http.js:237:11)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+config: {"url":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1}
+request: {"_events":{},"_eventsCount":6,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":false,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":0,"_hasBody":true,"_trailer":"","finished":true,"_headerSent":true,"socket":{"connecting":false,"_hadError":false,"_handle":{"reading":true,"onconnection":null},"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":false,"emitClose":false,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{"close":[null,null]},"_eventsCount":7,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":true,"needDrain":false,"ending":true,"ended":true,"finished":false,"destroyed":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":false,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":1,"prefinished":false,"errorEmitted":false,"emitClose":false,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":null,"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":"~"},"connection":"~socket","_header":"GET /public/vue-ssr-client-manifest.json HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.0\r\nHost: 0.0.0.0:9001\r\nConnection: close\r\n\r\n","agent":{"_events":{},"_eventsCount":1,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"0.0.0.0:9001:":["~socket"]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256},"method":"GET","path":"/public/vue-ssr-client-manifest.json","_ended":true,"res":{"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":true,"endEmitted":true,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":false,"emitClose":true,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":true,"decoder":null,"encoding":null},"readable":false,"_events":{"end":[null,null]},"_eventsCount":3,"socket":"~socket","connection":"~socket","httpVersionMajor":1,"httpVersionMinor":1,"httpVersion":"1.1","complete":true,"headers":{"x-powered-by":"Express","content-security-policy":"default-src 'none'","x-content-type-options":"nosniff","content-type":"text/html; charset=utf-8","content-length":"174","date":"Fri, 15 Nov 2019 07:47:31 GMT","connection":"close"},"rawHeaders":["X-Powered-By","Express","Content-Security-Policy","default-src 'none'","X-Content-Type-Options","nosniff","Content-Type","text/html; charset=utf-8","Content-Length","174","Date","Fri, 15 Nov 2019 07:47:31 GMT","Connection","close"],"trailers":{},"rawTrailers":[],"aborted":false,"upgrade":false,"url":"","method":null,"statusCode":404,"statusMessage":"Not Found","client":"~socket","_consuming":false,"_dumped":false,"req":"~","responseUrl":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json","redirects":[]},"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"_redirectable":{"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/public/vue-ssr-client-manifest.json","method":"GET","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.0"},"hostname":"0.0.0.0","port":"9001","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Unordered Collection","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":"~agent"},"https:":{"globalAgent":{"_events":{},"_eventsCount":1,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/public/vue-ssr-client-manifest.json"},"_redirectCount":0,"_redirects":"~res~redirects","_requestBodyLength":0,"_requestBodyBuffers":[],"_currentRequest":"~","_currentUrl":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json"}}
+response: {"status":404,"statusText":"Not Found","headers":{"x-powered-by":"Express","content-security-policy":"default-src 'none'","x-content-type-options":"nosniff","content-type":"text/html; charset=utf-8","content-length":"174","date":"Fri, 15 Nov 2019 07:47:31 GMT","connection":"close"},"config":{"url":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1},"request":{"_events":{},"_eventsCount":6,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":true,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":false,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":0,"_hasBody":true,"_trailer":"","finished":true,"_headerSent":true,"socket":{"connecting":false,"_hadError":false,"_handle":{"reading":true,"onconnection":null},"_parent":null,"_host":null,"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":false,"emitClose":false,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{"close":[null,null]},"_eventsCount":7,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":true,"needDrain":false,"ending":true,"ended":true,"finished":false,"destroyed":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":false,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":1,"prefinished":false,"errorEmitted":false,"emitClose":false,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":false,"allowHalfOpen":false,"_sockname":null,"_pendingData":null,"_pendingEncoding":"","server":null,"_server":null,"parser":null,"_httpMessage":"~request"},"connection":"~request~socket","_header":"GET /public/vue-ssr-client-manifest.json HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.0\r\nHost: 0.0.0.0:9001\r\nConnection: close\r\n\r\n","agent":{"_events":{},"_eventsCount":1,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"0.0.0.0:9001:":["~request~socket"]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256},"method":"GET","path":"/public/vue-ssr-client-manifest.json","_ended":true,"res":{"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":true,"endEmitted":true,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"paused":false,"emitClose":true,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":true,"decoder":null,"encoding":null},"readable":false,"_events":{"end":[null,null]},"_eventsCount":3,"socket":"~request~socket","connection":"~request~socket","httpVersionMajor":1,"httpVersionMinor":1,"httpVersion":"1.1","complete":true,"headers":"~headers","rawHeaders":["X-Powered-By","Express","Content-Security-Policy","default-src 'none'","X-Content-Type-Options","nosniff","Content-Type","text/html; charset=utf-8","Content-Length","174","Date","Fri, 15 Nov 2019 07:47:31 GMT","Connection","close"],"trailers":{},"rawTrailers":[],"aborted":false,"upgrade":false,"url":"","method":null,"statusCode":404,"statusMessage":"Not Found","client":"~request~socket","_consuming":false,"_dumped":false,"req":"~request","responseUrl":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json","redirects":[]},"timeoutCb":null,"upgradeOrConnect":false,"parser":null,"maxHeadersCount":null,"_redirectable":{"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":true,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":null,"entry":null}},"writable":true,"_events":{},"_eventsCount":2,"_options":{"protocol":"http:","maxRedirects":21,"maxBodyLength":10485760,"path":"/public/vue-ssr-client-manifest.json","method":"GET","headers":"~config~headers","hostname":"0.0.0.0","port":"9001","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Unordered Collection","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"maxHeaderSize":8192,"globalAgent":"~request~agent"},"https:":{"globalAgent":{"_events":{},"_eventsCount":1,"defaultPort":443,"protocol":"https:","options":{"path":null},"requests":{},"sockets":{},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256,"maxCachedSessions":100,"_sessionCache":{"map":{},"list":[]}}}},"pathname":"/public/vue-ssr-client-manifest.json"},"_redirectCount":0,"_redirects":"~request~res~redirects","_requestBodyLength":0,"_requestBodyBuffers":[],"_currentRequest":"~request","_currentUrl":"http://0.0.0.0:9001/public/vue-ssr-client-manifest.json"}},"data":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /public/vue-ssr-client-manifest.json</pre>\n</body>\n</html>\n"}
+isAxiosError: true
+toJSON: undefined
+pid: 21484
+hostname: hydeiMac.local
+
+2019-11-15 15:50:52,791 ERROR 21507 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: createBundleRenderer is not defined
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:54:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21507
+hostname: hydeiMac.local
+
+2019-11-15 15:52:32,696 ERROR 21522 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: file is not defined
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:56:27)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21522
+hostname: hydeiMac.local
+
+2019-11-15 15:53:11,048 ERROR 21528 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:54:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21528
+hostname: hydeiMac.local
+
+2019-11-15 15:54:59,856 ERROR 21538 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:54:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21538
+hostname: hydeiMac.local
+
+2019-11-15 16:40:04,459 ERROR 21745 nodejs.ReferenceError: erverCompiler is not defined
+    at webapckBundle (/Users/hy/Desktop/egg-demo/app.js:23:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:46:13)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21745
+hostname: hydeiMac.local
+
+2019-11-15 16:40:04,470 ERROR 21745 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: bundle is not defined
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:58:45)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21745
+hostname: hydeiMac.local
+
+2019-11-15 16:40:26,176 ERROR 21751 nodejs.ReferenceError: erverCompiler is not defined
+    at webapckBundle (/Users/hy/Desktop/egg-demo/app.js:23:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:46:13)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21751
+hostname: hydeiMac.local
+
+2019-11-15 16:40:26,190 ERROR 21751 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: bundle is not defined
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:58:45)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21751
+hostname: hydeiMac.local
+
+2019-11-15 16:40:37,094 ERROR 21761 nodejs.ReferenceError: erverCompiler is not defined
+    at webapckBundle (/Users/hy/Desktop/egg-demo/app.js:23:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:46:13)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21761
+hostname: hydeiMac.local
+
+2019-11-15 16:40:37,099 ERROR 21761 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: bundle is not defined
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:58:45)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21761
+hostname: hydeiMac.local
+
+2019-11-15 16:41:17,994 ERROR 21767 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: bundle is not defined
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:58:45)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21767
+hostname: hydeiMac.local
+
+2019-11-15 16:55:16,460 ERROR 21860 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: renderer.renderToString is not a function
+    at HomeController.index (/Users/hy/Desktop/egg-demo/app/controller/home.js:11:18)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/hy/Desktop/egg-demo/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 21860
+hostname: hydeiMac.local
+
+2019-11-15 17:03:16,640 ERROR 21887 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:39:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:66:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21887
+hostname: hydeiMac.local
+
+2019-11-15 17:03:22,334 ERROR 21888 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21888
+hostname: hydeiMac.local
+
+2019-11-15 17:03:25,987 ERROR 21889 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21889
+hostname: hydeiMac.local
+
+2019-11-15 17:03:28,697 ERROR 21890 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21890
+hostname: hydeiMac.local
+
+2019-11-15 17:03:30,285 ERROR 21891 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21891
+hostname: hydeiMac.local
+
+2019-11-15 17:03:33,843 ERROR 21892 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21892
+hostname: hydeiMac.local
+
+2019-11-15 17:03:35,169 ERROR 21893 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21893
+hostname: hydeiMac.local
+
+2019-11-15 17:03:37,887 ERROR 21894 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21894
+hostname: hydeiMac.local
+
+2019-11-15 17:03:46,082 ERROR 21896 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21896
+hostname: hydeiMac.local
+
+2019-11-15 17:03:47,916 ERROR 21897 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21897
+hostname: hydeiMac.local
+
+2019-11-15 17:03:56,261 ERROR 21898 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21898
+hostname: hydeiMac.local
+
+2019-11-15 17:04:14,162 ERROR 21899 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21899
+hostname: hydeiMac.local
+
+2019-11-15 17:04:21,209 ERROR 21902 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21902
+hostname: hydeiMac.local
+
+2019-11-15 17:04:22,816 ERROR 21903 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21903
+hostname: hydeiMac.local
+
+2019-11-15 17:04:23,974 ERROR 21904 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21904
+hostname: hydeiMac.local
+
+2019-11-15 17:04:46,152 ERROR 21906 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21906
+hostname: hydeiMac.local
+
+2019-11-15 17:04:55,733 ERROR 21907 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:47:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21907
+hostname: hydeiMac.local
+
+2019-11-15 17:05:06,042 ERROR 21908 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:47:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21908
+hostname: hydeiMac.local
+
+2019-11-15 17:05:10,499 ERROR 21909 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:47:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21909
+hostname: hydeiMac.local
+
+2019-11-15 17:05:15,401 ERROR 21910 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:47:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21910
+hostname: hydeiMac.local
+
+2019-11-15 17:05:31,198 ERROR 21911 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:47:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21911
+hostname: hydeiMac.local
+
+2019-11-15 17:06:00,506 ERROR 21915 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:49:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21915
+hostname: hydeiMac.local
+
+2019-11-15 17:06:06,983 ERROR 21916 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:49:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21916
+hostname: hydeiMac.local
+
+2019-11-15 17:06:09,608 ERROR 21917 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:51:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21917
+hostname: hydeiMac.local
+
+2019-11-15 17:06:21,836 ERROR 21918 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: Identifier 'renderer' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21918
+hostname: hydeiMac.local
+
+2019-11-15 17:06:23,029 ERROR 21919 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: Identifier 'renderer' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21919
+hostname: hydeiMac.local
+
+2019-11-15 17:06:31,986 ERROR 21920 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:51:38)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21920
+hostname: hydeiMac.local
+
+2019-11-15 17:06:51,418 ERROR 21928 nodejs.ReferenceError: bundle is not defined
+    at /Users/hy/Desktop/egg-demo/app.js:48:46
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21928
+hostname: hydeiMac.local
+
+2019-11-15 17:10:00,650 ERROR 21934 nodejs.unhandledRejectionError: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at serverbundle.then (/Users/hy/Desktop/egg-demo/app.js:47:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 21934
+hostname: hydeiMac.local
+
+2019-11-15 17:10:30,874 ERROR 21947 nodejs.unhandledRejectionError: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at serverbundle.then (/Users/hy/Desktop/egg-demo/app.js:47:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 21947
+hostname: hydeiMac.local
+
+2019-11-15 17:11:31,856 ERROR 21962 nodejs.unhandledRejectionError: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at serverbundle.then (/Users/hy/Desktop/egg-demo/app.js:47:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 21962
+hostname: hydeiMac.local
+
+2019-11-15 17:14:37,952 ERROR 21966 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:69:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21966
+hostname: hydeiMac.local
+
+2019-11-15 17:14:10,685 ERROR 21965 nodejs.unhandledRejectionError: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at serverbundle.then (/Users/hy/Desktop/egg-demo/app.js:47:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 21965
+hostname: hydeiMac.local
+
+2019-11-15 17:14:43,530 ERROR 21967 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:69:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21967
+hostname: hydeiMac.local
+
+2019-11-15 17:14:56,225 ERROR 21969 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21969
+hostname: hydeiMac.local
+
+2019-11-15 17:15:01,817 ERROR 21970 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21970
+hostname: hydeiMac.local
+
+2019-11-15 17:15:04,501 ERROR 21971 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:40:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 21971
+hostname: hydeiMac.local
+
+2019-11-15 17:15:13,616 ERROR 21973 nodejs.unhandledRejectionError: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:47:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 21973
+hostname: hydeiMac.local
+
+2019-11-15 17:15:18,153 ERROR 21974 nodejs.unhandledRejectionError: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:47:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 21974
+hostname: hydeiMac.local
+
+2019-11-15 17:15:10,022 ERROR 21972 nodejs.unhandledRejectionError: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:47:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 21972
+hostname: hydeiMac.local
+
+2019-11-15 17:15:33,164 ERROR 21975 nodejs.unhandledRejectionError: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:47:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 21975
+hostname: hydeiMac.local
+
+2019-11-15 17:17:22,757 ERROR 21977 nodejs.ReferenceError: c is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:46:7)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21977
+hostname: hydeiMac.local
+
+2019-11-15 17:17:26,384 ERROR 21978 nodejs.unhandledRejectionError: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:47:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 21978
+hostname: hydeiMac.local
+
+2019-11-15 17:17:29,259 ERROR 21979 nodejs.unhandledRejectionError: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:47:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 21979
+hostname: hydeiMac.local
+
+2019-11-15 17:17:33,200 ERROR 21980 nodejs.unhandledRejectionError: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:47:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 21980
+hostname: hydeiMac.local
+
+2019-11-15 17:17:50,754 ERROR 21991 nodejs.unhandledRejectionError: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:47:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 21991
+hostname: hydeiMac.local
+
+2019-11-15 17:18:28,599 ERROR 21993 nodejs.unhandledRejectionError: Invalid server-rendering bundle format. Should be a string or a bundle Object of type:
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+
+{
+  entry: string;
+  files: { [filename: string]: string; };
+  maps: { [filename: string]: string; };
+}
+
+    at createBundleRenderer (/Users/hy/Desktop/egg-demo/node_modules/vue-server-renderer/build.dev.js:9503:13)
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:48:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 21993
+hostname: hydeiMac.local
+
+2019-11-15 17:26:27,487 ERROR 22006 [-/127.0.0.1/-/1ms GET /] nodejs.SyntaxError: Identifier 'bundle' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22006
+hostname: hydeiMac.local
+
+2019-11-15 17:26:28,659 ERROR 22007 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: Identifier 'bundle' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22007
+hostname: hydeiMac.local
+
+2019-11-15 17:26:30,311 ERROR 22008 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: Identifier 'bundle' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22008
+hostname: hydeiMac.local
+
+2019-11-15 17:26:33,378 ERROR 22009 [-/127.0.0.1/-/1ms GET /] nodejs.SyntaxError: Identifier 'bundle' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22009
+hostname: hydeiMac.local
+
+2019-11-15 17:26:34,933 ERROR 22010 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: Identifier 'bundle' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22010
+hostname: hydeiMac.local
+
+2019-11-15 17:26:37,654 ERROR 22011 [-/127.0.0.1/-/1ms GET /] nodejs.SyntaxError: Identifier 'bundle' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22011
+hostname: hydeiMac.local
+
+2019-11-15 17:26:39,446 ERROR 22012 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: Identifier 'bundle' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22012
+hostname: hydeiMac.local
+
+2019-11-15 17:26:45,157 ERROR 22013 [-/127.0.0.1/-/1ms GET /] nodejs.SyntaxError: Identifier 'bundle' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22013
+hostname: hydeiMac.local
+
+2019-11-15 17:26:46,921 ERROR 22014 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: Identifier 'bundle' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22014
+hostname: hydeiMac.local
+
+2019-11-15 17:26:54,817 ERROR 22015 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: Identifier 'bundle' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22015
+hostname: hydeiMac.local
+
+2019-11-15 17:26:56,013 ERROR 22016 [-/127.0.0.1/-/1ms GET /] nodejs.SyntaxError: Identifier 'bundle' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:67:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22016
+hostname: hydeiMac.local
+
+2019-11-15 17:26:58,134 ERROR 22017 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: Identifier 'bundle' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:68:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22017
+hostname: hydeiMac.local
+
+2019-11-15 17:27:00,703 ERROR 22018 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: Identifier 'bundle' has already been declared
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:68:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22018
+hostname: hydeiMac.local
+
+2019-11-15 17:29:02,965 ERROR 22033 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:27:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:54:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22033
+hostname: hydeiMac.local
+
+2019-11-15 17:29:05,657 ERROR 22034 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:28:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:55:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22034
+hostname: hydeiMac.local
+
+2019-11-15 17:30:22,812 ERROR 22047 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: renderer.renderToString is not a function
+    at HomeController.index (/Users/hy/Desktop/egg-demo/app/controller/home.js:11:18)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/hy/Desktop/egg-demo/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 22047
+hostname: hydeiMac.local
+
+2019-11-15 17:31:10,177 ERROR 22050 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: renderer.renderToString is not a function
+    at HomeController.index (/Users/hy/Desktop/egg-demo/app/controller/home.js:11:18)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:36:12
+
+pid: 22050
+hostname: hydeiMac.local
+
+2019-11-15 17:31:56,387 ERROR 22050 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: renderer.renderToString is not a function
+    at HomeController.index (/Users/hy/Desktop/egg-demo/app/controller/home.js:11:18)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:36:12
+
+pid: 22050
+hostname: hydeiMac.local
+
+2019-11-15 17:35:58,711 ERROR 22065 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:23:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:51:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22065
+hostname: hydeiMac.local
+
+2019-11-15 17:35:59,881 ERROR 22066 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:23:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:65:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22066
+hostname: hydeiMac.local
+
+2019-11-15 17:36:15,175 ERROR 22067 nodejs.ReferenceError: bundle is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:23:5)
+    at AppBootHook.willReady (/Users/hy/Desktop/egg-demo/app.js:65:30)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 22067
+hostname: hydeiMac.local
+
+2019-11-15 17:37:35,584 ERROR 22088 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: renderer.renderToString is not a function
+    at HomeController.index (/Users/hy/Desktop/egg-demo/app/controller/home.js:11:18)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/hy/Desktop/egg-demo/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 22088
+hostname: hydeiMac.local
+
+2019-11-15 17:37:39,142 ERROR 22088 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: renderer.renderToString is not a function
+    at HomeController.index (/Users/hy/Desktop/egg-demo/app/controller/home.js:11:18)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/hy/Desktop/egg-demo/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 22088
+hostname: hydeiMac.local
+
+2019-11-15 17:38:56,743 ERROR 22091 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: renderer.renderToString is not a function
+    at HomeController.index (/Users/hy/Desktop/egg-demo/app/controller/home.js:11:18)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/hy/Desktop/egg-demo/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 22091
+hostname: hydeiMac.local
+
+2019-11-15 17:49:46,129 ERROR 22152 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property 'renderToString' of undefined
+    at HomeController.index (/Users/hy/Desktop/egg-demo/app/controller/home.js:11:18)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:36:12
+
+pid: 22152
+hostname: hydeiMac.local
+
+2019-11-15 17:54:29,290 ERROR 22184 [-/127.0.0.1/-/7ms GET /] nodejs.TypeError: Cannot read property 'renderToString' of undefined
+    at HomeController.index (/Users/hy/Desktop/egg-demo/app/controller/home.js:11:18)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/hy/Desktop/egg-demo/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 22184
+hostname: hydeiMac.local
+
+2019-11-15 17:59:50,279 ERROR 22223 nodejs.ReferenceError: renderer is not defined
+    at handleSSR (/Users/hy/Desktop/egg-demo/app.js:32:51)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 22223
+hostname: hydeiMac.local
+
+2019-11-15 18:09:45,231 ERROR 22269 nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at handleSSR.then.renderer (/Users/hy/Desktop/egg-demo/app.js:61:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 22269
+hostname: hydeiMac.local
+
+2019-11-15 18:10:03,148 ERROR 22272 nodejs.ReferenceError: cns is not defined (uncaughtException throw 1 times on pid:22272)
+    at Watching.serverCompiler.watch [as handler] (/Users/hy/Desktop/egg-demo/app.js:60:11)
+    at compiler.hooks.done.callAsync (/Users/hy/Desktop/egg-demo/node_modules/webpack/lib/Watching.js:99:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/hy/Desktop/egg-demo/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/hy/Desktop/egg-demo/node_modules/tapable/lib/Hook.js:154:20)
+    at Watching._done (/Users/hy/Desktop/egg-demo/node_modules/webpack/lib/Watching.js:98:28)
+    at compiler.emitRecords.err (/Users/hy/Desktop/egg-demo/node_modules/webpack/lib/Watching.js:73:19)
+    at Compiler.emitRecords (/Users/hy/Desktop/egg-demo/node_modules/webpack/lib/Compiler.js:499:39)
+    at compiler.emitAssets.err (/Users/hy/Desktop/egg-demo/node_modules/webpack/lib/Watching.js:54:20)
+    at hooks.afterEmit.callAsync.err (/Users/hy/Desktop/egg-demo/node_modules/webpack/lib/Compiler.js:485:14)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/hy/Desktop/egg-demo/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/hy/Desktop/egg-demo/node_modules/tapable/lib/Hook.js:154:20)
+    at asyncLib.forEachLimit.err (/Users/hy/Desktop/egg-demo/node_modules/webpack/lib/Compiler.js:482:27)
+    at /Users/hy/Desktop/egg-demo/node_modules/neo-async/async.js:2818:7
+    at done (/Users/hy/Desktop/egg-demo/node_modules/neo-async/async.js:3522:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/hy/Desktop/egg-demo/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/hy/Desktop/egg-demo/node_modules/tapable/lib/Hook.js:154:20)
+
+pid: 22272
+hostname: hydeiMac.local
+
+2019-11-15 18:10:10,748 ERROR 22273 nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at handleSSR.then.renderer (/Users/hy/Desktop/egg-demo/app.js:62:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 22273
+hostname: hydeiMac.local
+
+2019-11-15 18:10:17,105 ERROR 22274 nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at handleSSR.then.renderer (/Users/hy/Desktop/egg-demo/app.js:62:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 22274
+hostname: hydeiMac.local
+
+2019-11-15 18:18:27,543 ERROR 22315 nodejs.ReferenceError: document is not defined
+    at insertStyleElement (node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js:107:0)
+    at addStyle (node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js:219:0)
+    at addStylesToDom (node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js:94:0)
+    at module.exports../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js.module.exports (node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js:251:0)
+    at Object../app/view/web/assets/styles/footer.css (app/view/web/assets/styles/footer.css?3113:12:105)
+    at __webpack_require__ (webpack/bootstrap:19:0)
+    at Module../app/view/web/layout/footer.jsx (app/view/web/layout/footer.jsx:1:0)
+    at __webpack_require__ (webpack/bootstrap:19:0)
+    at Module../node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./app/view/web/app.vue?vue&type=script&lang=js& (server-entry.js:886:76)
+    at __webpack_require__ (webpack/bootstrap:19:0)
+    at Module../app/view/web/app.vue?vue&type=script&lang=js& (app/view/web/app.vue?3e7c:1:0)
+    at __webpack_require__ (webpack/bootstrap:19:0)
+    at Module../app/view/web/app.vue (app/view/web/app.vue:1:0)
+    at __webpack_require__ (webpack/bootstrap:19:0)
+    at Module../app/view/web/create-app.js (app/view/web/create-app.js:1:0)
+    at __webpack_require__ (webpack/bootstrap:19:0)
+
+pid: 22315
+hostname: hydeiMac.local
+
+2019-11-15 18:18:27,560 ERROR 22315 nodejs.ReferenceError: document is not defined
+    at insertStyleElement (node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js:107:0)
+    at addStyle (node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js:219:0)
+    at addStylesToDom (node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js:94:0)
+    at module.exports../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js.module.exports (node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js:251:0)
+    at Object../app/view/web/assets/styles/footer.css (app/view/web/assets/styles/footer.css?3113:12:105)
+    at __webpack_require__ (webpack/bootstrap:19:0)
+    at Module../app/view/web/layout/footer.jsx (app/view/web/layout/footer.jsx:1:0)
+    at __webpack_require__ (webpack/bootstrap:19:0)
+    at Module../node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./app/view/web/app.vue?vue&type=script&lang=js& (server-entry.js:886:76)
+    at __webpack_require__ (webpack/bootstrap:19:0)
+    at Module../app/view/web/app.vue?vue&type=script&lang=js& (app/view/web/app.vue?3e7c:1:0)
+    at __webpack_require__ (webpack/bootstrap:19:0)
+    at Module../app/view/web/app.vue (app/view/web/app.vue:1:0)
+    at __webpack_require__ (webpack/bootstrap:19:0)
+    at Module../app/view/web/create-app.js (app/view/web/create-app.js:1:0)
+    at __webpack_require__ (webpack/bootstrap:19:0)
+
+pid: 22315
+hostname: hydeiMac.local
+
+2019-11-15 18:20:47,328 ERROR 22325 [-/127.0.0.1/-/8ms GET /] nodejs.TypeError: renderer is not a function
+    at HomeController.index (/Users/hy/Desktop/egg-demo/app/controller/home.js:11:9)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:36:12
+
+pid: 22325
+hostname: hydeiMac.local
+
+2019-11-15 18:21:18,655 ERROR 22327 [-/127.0.0.1/-/7ms GET /] nodejs.TypeError: renderer is not a function
+    at HomeController.index (/Users/hy/Desktop/egg-demo/app/controller/home.js:11:9)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hy/Desktop/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/hy/Desktop/egg-demo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/hy/Desktop/egg-demo/node_modules/koa-compose/index.js:36:12
+
+pid: 22327
+hostname: hydeiMac.local
+
+2019-11-15 23:44:07,004 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 4192047ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 01:45:03,348 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7216371ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 03:46:00,660 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7216420ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 04:18:20,888 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 1900215ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 06:19:17,921 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7217022ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 08:20:13,519 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7215581ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 08:56:51,328 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 2157142ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 09:31:09,176 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 2017827ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 11:32:05,980 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7216790ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 13:32:42,002 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7216012ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 14:59:10,323 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 5147867ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 17:00:06,155 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7215811ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 17:52:07,399 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 3080893ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 19:53:03,219 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7215802ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 21:53:59,520 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7216281ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-16 23:54:56,361 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7215670ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-17 01:53:18,637 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7062257ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-17 02:28:45,494 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 2086842ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-17 02:59:46,238 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 1820726ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-17 03:52:04,002 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 3117753ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-17 05:52:59,830 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7215813ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-17 07:53:56,020 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7216175ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-17 09:54:52,260 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7215450ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-17 11:55:47,701 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7215694ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-17 13:56:12,911 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7185195ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-17 14:45:12,689 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 2899758ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-17 17:45:09,402 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7215284ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-17 18:21:49,904 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 2160045ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-17 20:22:45,738 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7215851ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-17 22:23:41,987 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7215883ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-18 00:24:38,021 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7215764ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-18 02:25:35,214 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7217178ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-18 04:26:31,399 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7216168ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-18 06:27:08,002 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7216593ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-18 08:28:04,273 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 7216244ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-18 09:00:58,564 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 1933319ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-18 10:36:43,701 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 1024288ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-18 12:37:48,499 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 2143357ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-18 13:22:21,002 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 2652495ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-18 13:44:57,291 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 1315495ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-18 14:11:20,397 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 181566ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-18 14:28:23,644 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 403085ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
+2019-11-18 15:03:15,002 ERROR 22314 nodejs.ClusterClientNoResponseError: client no response in 951154ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hy/Desktop/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22314
+hostname: hydeiMac.local
+
