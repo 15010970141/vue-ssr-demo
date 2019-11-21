@@ -1,6 +1,7 @@
 const axios = require('axios')
 const path = require('path')
 const fs = require('fs')
+const isDev = process.env.NODE_ENV === 'development'
 // 在内存里操作文件, 提高效率, 只用在开发环境
 const MemoryFs = require('memory-fs')
 // 直接在nodejs里打包代码
@@ -17,9 +18,7 @@ const serverCompiler = webpack(serverConfig)
 const mfs = new MemoryFs()
 // 指定webpack打包的输出目录在内存里
 serverCompiler.outputFileSystem = mfs
-let bundle // 用来记录webpack每次打包出来的文件
-async function handleSSR() {
-   
+async function handleDevSSR(bundle) {
     if(!bundle){
         console.log('请稍等一会');
         return
@@ -32,13 +31,22 @@ async function handleSSR() {
       // console.log(clientManifest)
     let renderer = createBundleRenderer(bundle, {
            inject:false,
-          
             clientManifest
         });
-   return  renderer.renderToString;
-        // return  renderer;
+   return  await renderer.renderToString;
 
-  
+}
+async function handleSSR() {
+  const clientManifest = require('./public/vue-ssr-client-manifest.json')
+const renderer =createBundleRenderer(
+  path.join(__dirname, './server-build/vue-ssr-server-bundle.json'),
+  {
+    inject: false,
+    clientManifest
+  }
+) 
+   return  await renderer.renderToString;
+
 }
   class AppBootHook {
     constructor(app) {
@@ -47,29 +55,31 @@ async function handleSSR() {
    
     // 配置文件加载完毕事件
     async willReady(){
-        serverCompiler.watch({}, (err, stats) => {
-          if (err) throw err
-          stats = stats.toJson()
-          stats.errors.forEach(err => console.log(err))
-          stats.warnings.forEach(warn => console.warn(err))
-        
-          const bundlePath = path.join(
-            serverConfig.output.path,
-            'vue-ssr-server-bundle.json' // vue-server-renderer默认生成的json名
-          )
-          bundle = JSON.parse(mfs.readFileSync(bundlePath, 'utf-8'))
-          console.log('new bundle completed')
-          console.log(handleSSR().then());
-          handleSSR().then(renderer=>{
-          
-            this.app.renderer = renderer;
+    if(isDev){
+      let bundle // 用来记录webpack每次打包出来的文件
+      serverCompiler.watch({}, (err, stats) => {
+        if (err) throw err
+        stats = stats.toJson()
+        stats.errors.forEach(err => console.log(err))
+        stats.warnings.forEach(warn => console.warn(err))
       
+        const bundlePath = path.join(
+          serverConfig.output.path,
+          'vue-ssr-server-bundle.json' // vue-server-renderer默认生成的json名
+        )
+        bundle = JSON.parse(mfs.readFileSync(bundlePath, 'utf-8'))
+        console.log('new bundle completed')
+        handleDevSSR(bundle).then(renderer=>{
+              this.app.renderer = renderer;
+            })
           })
-        })
-       
+      
+    }else{
+      this.app.renderer=await handleSSR()
     }
- 
+  
 }
+  }
 
 module.exports = AppBootHook;
 //   await serverRender(ctx, renderer, template)

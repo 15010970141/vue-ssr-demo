@@ -35,7 +35,8 @@ export default {
   data () {
     return {
       todos: [],
-      filter: 'all'
+      filter: 'all',
+      
     }
   },
   components: {

@@ -22,7 +22,7 @@ export default
   // ]
 },
 {
-  path: '/login/:id',
+  path: '/login',
   component: Login
 
 }

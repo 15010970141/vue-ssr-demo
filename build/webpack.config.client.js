@@ -65,7 +65,20 @@ template: path.resolve(__dirname, '../build/template.html'),
             filename: '[name].[hash:8].js',
             publicPath: '/public/',
           },
-         
+          module:{
+            rules:[
+              {
+                test: /\.css$/,
+                use: [
+                  'vue-style-loader',
+                 {
+                  loader: 'css-loader'
+                 }
+                ],
+               }
+            ]
+          },
+          plugins: defaultPlugin,
     optimization: {
       splitChunks: {
         cacheGroups: {

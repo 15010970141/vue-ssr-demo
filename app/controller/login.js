@@ -1,6 +1,6 @@
 const Controller=require('egg').Controller;
 
-class HomeController extends Controller{
+class LoginController extends Controller{
     async index() {
         let renderer = this.app.renderer;
       console.log('renderer'+renderer);
@@ -17,4 +17,4 @@ class HomeController extends Controller{
   
     }
 }
-module.exports =HomeController;
+module.exports =LoginController;
