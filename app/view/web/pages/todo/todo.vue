@@ -24,9 +24,11 @@
 </template>
 
 <script>
+import {
+  mapState,mapActions
+} from 'vuex'
 import Item from './item.vue'
 import Tabs from './tabs.vue'
-let id = 0
 
 export default {
   metaInfo: {
@@ -34,16 +36,30 @@ export default {
   },
   data () {
     return {
-      todos: [],
       filter: 'all',
       
     }
+  },
+   mounted () {
+    // if (this.todos && this.todos.length < 1) {
+    //   this.fetchTodos()
+    // }
+    // console.log(this.$store);
+  },
+   asyncData ({ store, router }) {
+    // console.log(store);
+    //   console.log(store.actions);
+  return store.dispatch('fetchTodos')
+   
+    // router.replace('/login')
+    // return Promise.resolve()
   },
   components: {
     Item,
     Tabs
   },
   computed: {
+       ...mapState(['todos']),
     filteredTodos () {
       if (this.filter === 'all') {
         return this.todos
@@ -53,6 +69,9 @@ export default {
     }
   },
   methods: {
+     ...mapActions([
+      'fetchTodos'
+    ]),
     addTodo (e) {
       this.todos.unshift({
         id: id++,
@@ -60,6 +79,7 @@ export default {
         completed: false
       })
       e.target.value = ''
+      console.log(this.todos)
     },
     deleteTodo (id) {
       this.todos.splice(this.todos.findIndex(todo => todo.id === id), 1)

@@ -1,25 +1,12 @@
 {
   "keys": "/Users/hy/demo-vue/config/config.default.js",
-  "view": {
-    "defaultViewEngine": "/Users/hy/demo-vue/config/config.default.js",
-    "mapping": {
-      ".tpl": "/Users/hy/demo-vue/config/config.default.js"
-    },
-    "root": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/hy/demo-vue/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js"
-  },
-  "session": {
-    "maxAge": "/Users/hy/demo-vue/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/hy/demo-vue/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/hy/demo-vue/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/hy/demo-vue/node_modules/egg-session/config/config.default.js"
-  },
   "security": {
-    "domainWhiteList": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/hy/demo-vue/config/config.default.js",
+      "value": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
+    },
     "csrf": {
+      "ignore": "/Users/hy/demo-vue/config/config.default.js",
       "enable": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
       "type": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
       "ignoreJSON": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
@@ -31,10 +18,9 @@
       "queryName": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
       "refererWhiteList": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
     },
-    "xframe": {
-      "enable": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
-    },
+    "domainWhiteList": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
     "hsts": {
       "enable": "/Users/hy/demo-vue/node_modules/egg-security/config/config.local.js",
       "maxAge": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
@@ -68,6 +54,12 @@
       "ipBlackList": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
       "checkAddress": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
     }
+  },
+  "session": {
+    "maxAge": "/Users/hy/demo-vue/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/hy/demo-vue/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/hy/demo-vue/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/hy/demo-vue/node_modules/egg-session/config/config.default.js"
   },
   "helper": {
     "shtml": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
@@ -146,12 +138,12 @@
     "buffer": "/Users/hy/demo-vue/node_modules/egg-static/config/config.default.js",
     "maxFiles": "/Users/hy/demo-vue/node_modules/egg-static/config/config.default.js"
   },
-  "nunjucks": {
-    "autoescape": "/Users/hy/demo-vue/node_modules/egg-view-nunjucks/config/config.default.js",
-    "throwOnUndefined": "/Users/hy/demo-vue/node_modules/egg-view-nunjucks/config/config.default.js",
-    "trimBlocks": "/Users/hy/demo-vue/node_modules/egg-view-nunjucks/config/config.default.js",
-    "lstripBlocks": "/Users/hy/demo-vue/node_modules/egg-view-nunjucks/config/config.default.js",
-    "cache": "/Users/hy/demo-vue/node_modules/egg-view-nunjucks/config/config.local.js"
+  "view": {
+    "root": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/hy/demo-vue/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js"
   },
   "env": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
   "name": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",

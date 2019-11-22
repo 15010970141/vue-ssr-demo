@@ -18,6 +18,10 @@ const serverCompiler = webpack(serverConfig)
 const mfs = new MemoryFs()
 // 指定webpack打包的输出目录在内存里
 serverCompiler.outputFileSystem = mfs
+const template = fs.readFileSync(
+  path.join(__dirname, './app/view/web/layout/index.html'),
+  'utf-8'
+)
 async function handleDevSSR(bundle) {
     if(!bundle){
         console.log('请稍等一会');
@@ -30,7 +34,7 @@ async function handleDevSSR(bundle) {
       const clientManifest = clientManifestRes.data
       // console.log(clientManifest)
     let renderer = createBundleRenderer(bundle, {
-           inject:false,
+      template,
             clientManifest
         });
    return  await renderer.renderToString;

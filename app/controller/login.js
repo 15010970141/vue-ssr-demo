@@ -3,18 +3,34 @@ const Controller=require('egg').Controller;
 class LoginController extends Controller{
     async index() {
         let renderer = this.app.renderer;
-      console.log('renderer'+renderer);
+        if(!renderer){
+          ctx.body="请稍等一会"
+        }
         let context = {
             url: this.ctx.request.url
         };
-      console.log(this.ctx.request.url);
-      const appString = await renderer(context)
-    this.ctx.body=await this.ctx.renderView('web/layout/index.tpl', {
-          appString:appString,
-          style: context.renderStyles(),
-          script: context.renderScripts()
-        });
-  
+     this.ctx.body=await renderer(context)
+    }
+    async login(){
+      const user =this.ctx.request.body
+      if (user.username === 'wmm' && user.password === '1111') {
+        // ctx.session.user = {
+        //   username: 'wmm'
+        // }
+        this.ctx.body = {
+          success: true,
+          data: {
+            username: 'wmm'
+          }
+        }
+      } else {
+        console.log('err')
+        ctx.status = 400
+        ctx.body = {
+          success: false,
+          message: 'username or password error'
+        }
+      }
     }
 }
 module.exports =LoginController;

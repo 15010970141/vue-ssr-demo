@@ -12,6 +12,10 @@ const devServer = {
       warnings: true,
       errors: true,
     },
+    proxy: {
+      '/api': 'http://127.0.0.1:7002',
+      '/user': 'http://127.0.0.1:7002'
+    },
     historyApiFallback: {
       index: '/public/index.html',
     },

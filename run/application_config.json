@@ -27,12 +27,15 @@
         "bodyName": "_csrf",
         "queryName": "_csrf",
         "refererWhiteList": [],
-        "matching": "<Function anonymous>"
+        "ignore": [
+          "/user",
+          "/api"
+        ],
+        "matching": "<Function pathMatch>"
       },
       "xframe": {
-        "enable": true,
-        "value": "SAMEORIGIN",
-        "matching": "<Function anonymous>"
+        "enable": false,
+        "value": "SAMEORIGIN"
       },
       "hsts": {
         "enable": false,
@@ -105,7 +108,6 @@
         "/Users/hy/demo-vue/node_modules/egg-logrotator/config/locales",
         "/Users/hy/demo-vue/node_modules/egg-static/config/locales",
         "/Users/hy/demo-vue/node_modules/egg-view/config/locales",
-        "/Users/hy/demo-vue/node_modules/egg-view-nunjucks/config/locales",
         "/Users/hy/demo-vue/node_modules/egg/config/locales",
         "/Users/hy/demo-vue/config/locales"
       ],
@@ -172,22 +174,11 @@
       "maxFiles": 1000
     },
     "view": {
-      "root": [
-        "/Users/hy/demo-vue/app/view"
-      ],
+      "root": "/Users/hy/demo-vue/app/view",
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "nunjucks",
-      "mapping": {
-        ".tpl": "nunjucks"
-      }
-    },
-    "nunjucks": {
-      "autoescape": true,
-      "throwOnUndefined": false,
-      "trimBlocks": false,
-      "lstripBlocks": false,
-      "cache": false
+      "defaultViewEngine": "",
+      "mapping": {}
     },
     "env": "local",
     "name": "egg-demo",
@@ -516,20 +507,6 @@
       "from": "/Users/hy/demo-vue/node_modules/egg/config/plugin.js",
       "path": "/Users/hy/demo-vue/node_modules/egg-view",
       "version": "2.1.2"
-    },
-    "nunjucks": {
-      "enable": true,
-      "package": "egg-view-nunjucks",
-      "name": "nunjucks",
-      "dependencies": [
-        "security",
-        "view"
-      ],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Users/hy/demo-vue/config/plugin.js",
-      "path": "/Users/hy/demo-vue/node_modules/egg-view-nunjucks",
-      "version": "2.2.0"
     }
   }
 }

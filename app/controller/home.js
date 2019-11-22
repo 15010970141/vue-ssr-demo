@@ -3,18 +3,13 @@ const Controller=require('egg').Controller;
 class HomeController extends Controller{
     async index() {
         let renderer = this.app.renderer;
-      console.log('renderer'+renderer);
+        if(!renderer){
+          ctx.body="请稍等一会"
+        }
         let context = {
             url: this.ctx.request.url
         };
-      console.log(this.ctx.request.url);
-      const appString = await renderer(context)
-    this.ctx.body=await this.ctx.renderView('web/layout/index.tpl', {
-          appString:appString,
-          style: context.renderStyles(),
-          script: context.renderScripts()
-        });
-  
+     this.ctx.body=await renderer(context)
     }
 }
 module.exports =HomeController;

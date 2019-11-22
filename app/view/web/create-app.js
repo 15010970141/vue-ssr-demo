@@ -10,7 +10,6 @@ import './assets/styles/global.css'
 Vue.use(VueRouter)
 Vue.use(Vuex)
 Vue.use(Meta)
-
 export default () => {
   const router = createRouter()
   const store= createStore()
@@ -36,5 +35,5 @@ export default () => {
     render: h => h(App)
   })
 
-  return { app, router,}
+  return { app, router,store}
 }
