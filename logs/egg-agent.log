@@ -1,0 +1,5 @@
+2019-11-26 14:57:33,735 INFO 49965 [egg:logger] init all loggers with options: {"dir":"/Users/zyy/projects/frontend/demo-vue/logs","encoding":"utf-8","env":"prod","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":true,"type":"agent"}
+2019-11-26 14:57:33,749 INFO 49965 [egg:core] dump config after load, 7ms
+2019-11-26 14:57:33,816 INFO 49965 [egg-watcher:agent] watcher start success
+2019-11-26 14:57:33,823 WARN 49965 [egg-watcher] defaultEventSource watcher will NOT take effect
+2019-11-26 14:57:33,846 INFO 49965 [egg:core] dump config after ready, 9ms

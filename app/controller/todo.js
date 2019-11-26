@@ -3,6 +3,9 @@ const Controller=require('egg').Controller;
 class TodoController extends Controller{
     async index(){
         const {ctx}=this;
+
+        ctx.logger.error('aaaaa.aaa');
+
         // const username=ctx.request.body
         // if (username === 'wmm' ) {
           this.ctx.body = {

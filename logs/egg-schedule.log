@@ -1,0 +1,15 @@
+2019-11-26 14:57:37,682 INFO 49965 [Timer] /Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48742325ms at 2019-11-27 04:30:00.006
+2019-11-26 14:57:37,682 INFO 49965 [Timer] /Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32542318ms at 2019-11-27 00:00:00.000
+2019-11-26 14:57:37,683 INFO 49965 [Timer] /Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32543318ms at 2019-11-27 00:00:01.001
+2019-11-26 14:57:37,152 INFO 49967 [egg-schedule]: register schedule /Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-26 14:57:37,152 INFO 49967 [egg-schedule]: register schedule /Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-26 14:57:37,152 INFO 49967 [egg-schedule]: register schedule /Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-26 14:57:37,146 INFO 49966 [egg-schedule]: register schedule /Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-26 14:57:37,146 INFO 49966 [egg-schedule]: register schedule /Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-26 14:57:37,146 INFO 49966 [egg-schedule]: register schedule /Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-26 14:57:37,156 INFO 49968 [egg-schedule]: register schedule /Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-26 14:57:37,156 INFO 49968 [egg-schedule]: register schedule /Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-26 14:57:37,156 INFO 49968 [egg-schedule]: register schedule /Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-26 14:57:37,160 INFO 49969 [egg-schedule]: register schedule /Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-26 14:57:37,160 INFO 49969 [egg-schedule]: register schedule /Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-26 14:57:37,160 INFO 49969 [egg-schedule]: register schedule /Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

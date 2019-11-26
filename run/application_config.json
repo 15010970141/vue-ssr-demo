@@ -91,25 +91,24 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/hy/demo-vue/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/hy/demo-vue/node_modules/egg-session/config/locales",
-        "/Users/hy/demo-vue/node_modules/egg-security/config/locales",
-        "/Users/hy/demo-vue/node_modules/egg-jsonp/config/locales",
-        "/Users/hy/demo-vue/node_modules/egg-onerror/config/locales",
-        "/Users/hy/demo-vue/node_modules/egg-i18n/config/locales",
-        "/Users/hy/demo-vue/node_modules/egg-watcher/config/locales",
-        "/Users/hy/demo-vue/node_modules/egg-schedule/config/locales",
-        "/Users/hy/demo-vue/node_modules/egg-multipart/config/locales",
-        "/Users/hy/demo-vue/node_modules/egg-development/config/locales",
-        "/Users/hy/demo-vue/node_modules/egg-logrotator/config/locales",
-        "/Users/hy/demo-vue/node_modules/egg-static/config/locales",
-        "/Users/hy/demo-vue/node_modules/egg-view/config/locales",
-        "/Users/hy/demo-vue/node_modules/egg/config/locales",
-        "/Users/hy/demo-vue/config/locales"
+        "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-session/config/locales",
+        "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/locales",
+        "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-jsonp/config/locales",
+        "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-onerror/config/locales",
+        "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-i18n/config/locales",
+        "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-watcher/config/locales",
+        "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-schedule/config/locales",
+        "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/config/locales",
+        "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/config/locales",
+        "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-static/config/locales",
+        "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-view/config/locales",
+        "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/locales",
+        "/Users/zyy/projects/frontend/demo-vue/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -118,10 +117,10 @@
       "functionName": "__"
     },
     "watcher": {
-      "type": "development",
+      "type": "default",
       "eventSources": {
-        "default": "/Users/hy/demo-vue/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/hy/demo-vue/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -144,17 +143,10 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "/var/folders/vr/d6lx7fb947z9mvwh2qq6b3000000gn/T/egg-multipart-tmp/egg-demo",
+      "tmpdir": "/var/folders/6v/rn6hgxh91bs7tc882mn_002w0000gn/T/egg-multipart-tmp/egg-demo",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
-    },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
     },
     "logrotator": {
       "filesRotateByHour": null,
@@ -167,20 +159,21 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/hy/demo-vue/app/public",
+      "dir": "/Users/zyy/projects/frontend/demo-vue/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": false,
-      "maxFiles": 1000
+      "buffer": true,
+      "maxFiles": 1000,
+      "maxAge": 31536000
     },
     "view": {
-      "root": "/Users/hy/demo-vue/app/view",
-      "cache": false,
+      "root": "/Users/zyy/projects/frontend/demo-vue/app/view",
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
     },
-    "env": "local",
+    "env": "prod",
     "name": "egg-demo",
     "keys": "<String len: 6>",
     "proxy": false,
@@ -244,9 +237,9 @@
         "webpack-merge": "^4.2.2"
       }
     },
-    "baseDir": "/Users/hy/demo-vue",
-    "HOME": "/Users/hy",
-    "rundir": "/Users/hy/demo-vue/run",
+    "baseDir": "/Users/zyy/projects/frontend/demo-vue",
+    "HOME": "/Users/zyy",
+    "rundir": "/Users/zyy/projects/frontend/demo-vue/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -277,22 +270,20 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/hy/demo-vue/logs/egg-demo",
-      "encoding": "utf8",
-      "env": "local",
-      "level": "INFO",
-      "consoleLevel": "INFO",
-      "disableConsoleAfterReady": false,
+      "dir": "/Users/zyy/projects/frontend/demo-vue/logs",
+      "encoding": "utf-8",
+      "env": "prod",
+      "level": "DEBUG",
+      "consoleLevel": "DEBUG",
+      "disableConsoleAfterReady": true,
       "outputJSON": false,
       "buffer": true,
-      "appLogName": "egg-demo-web.log",
+      "appLogName": "demo-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
-      "allowDebugAtProd": false,
+      "coreLogger": {},
+      "allowDebugAtProd": true,
       "type": "application"
     },
     "httpclient": {
@@ -328,8 +319,7 @@
       "overrideMethod",
       "session",
       "securities",
-      "i18n",
-      "eggLoaderTrace"
+      "i18n"
     ],
     "workerStartTimeout": 600000,
     "serverTimeout": null,
@@ -369,8 +359,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/hy/demo-vue/node_modules/egg/config/plugin.js",
-      "path": "/Users/hy/demo-vue/node_modules/egg-session",
+      "from": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/plugin.js",
+      "path": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -382,8 +372,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/hy/demo-vue/node_modules/egg/config/plugin.js",
-      "path": "/Users/hy/demo-vue/node_modules/egg-security",
+      "from": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/plugin.js",
+      "path": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security",
       "version": "2.6.1"
     },
     "jsonp": {
@@ -395,8 +385,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/hy/demo-vue/node_modules/egg/config/plugin.js",
-      "path": "/Users/hy/demo-vue/node_modules/egg-jsonp",
+      "from": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/plugin.js",
+      "path": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -408,8 +398,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/hy/demo-vue/node_modules/egg/config/plugin.js",
-      "path": "/Users/hy/demo-vue/node_modules/egg-onerror",
+      "from": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/plugin.js",
+      "path": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -419,8 +409,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/hy/demo-vue/node_modules/egg/config/plugin.js",
-      "path": "/Users/hy/demo-vue/node_modules/egg-i18n",
+      "from": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/plugin.js",
+      "path": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -430,8 +420,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/hy/demo-vue/node_modules/egg/config/plugin.js",
-      "path": "/Users/hy/demo-vue/node_modules/egg-watcher",
+      "from": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/plugin.js",
+      "path": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -441,8 +431,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/hy/demo-vue/node_modules/egg/config/plugin.js",
-      "path": "/Users/hy/demo-vue/node_modules/egg-schedule",
+      "from": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/plugin.js",
+      "path": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -454,24 +444,9 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/hy/demo-vue/node_modules/egg/config/plugin.js",
-      "path": "/Users/hy/demo-vue/node_modules/egg-multipart",
+      "from": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/plugin.js",
+      "path": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart",
       "version": "2.9.0"
-    },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "/Users/hy/demo-vue/node_modules/egg/config/plugin.js",
-      "path": "/Users/hy/demo-vue/node_modules/egg-development",
-      "version": "2.4.3"
     },
     "logrotator": {
       "enable": true,
@@ -482,8 +457,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/hy/demo-vue/node_modules/egg/config/plugin.js",
-      "path": "/Users/hy/demo-vue/node_modules/egg-logrotator",
+      "from": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/plugin.js",
+      "path": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -493,8 +468,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/hy/demo-vue/node_modules/egg/config/plugin.js",
-      "path": "/Users/hy/demo-vue/node_modules/egg-static",
+      "from": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/plugin.js",
+      "path": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -504,8 +479,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/hy/demo-vue/node_modules/egg/config/plugin.js",
-      "path": "/Users/hy/demo-vue/node_modules/egg-view",
+      "from": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/plugin.js",
+      "path": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-view",
       "version": "2.1.2"
     }
   }

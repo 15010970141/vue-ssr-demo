@@ -1,300 +1,292 @@
 {
-  "keys": "/Users/hy/demo-vue/config/config.default.js",
+  "keys": "/Users/zyy/projects/frontend/demo-vue/config/config.default.js",
   "security": {
     "xframe": {
-      "enable": "/Users/hy/demo-vue/config/config.default.js",
-      "value": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/zyy/projects/frontend/demo-vue/config/config.default.js",
+      "value": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js"
     },
     "csrf": {
-      "ignore": "/Users/hy/demo-vue/config/config.default.js",
-      "enable": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "type": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "refererWhiteList": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
+      "ignore": "/Users/zyy/projects/frontend/demo-vue/config/config.default.js",
+      "enable": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js"
     },
-    "domainWhiteList": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
     "hsts": {
-      "enable": "/Users/hy/demo-vue/node_modules/egg-security/config/config.local.js",
-      "maxAge": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "maxAge": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "policy": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
-      "checkAddress": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
+      "ipBlackList": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js"
     }
   },
+  "logger": {
+    "dir": "/Users/zyy/projects/frontend/demo-vue/config/config.default.js",
+    "level": "/Users/zyy/projects/frontend/demo-vue/config/config.default.js",
+    "allowDebugAtProd": "/Users/zyy/projects/frontend/demo-vue/config/config.default.js",
+    "consoleLevel": "/Users/zyy/projects/frontend/demo-vue/config/config.default.js",
+    "encoding": "/Users/zyy/projects/frontend/demo-vue/config/config.default.js",
+    "outputJSON": "/Users/zyy/projects/frontend/demo-vue/config/config.default.js",
+    "appLogName": "/Users/zyy/projects/frontend/demo-vue/config/config.default.js",
+    "coreLogName": "/Users/zyy/projects/frontend/demo-vue/config/config.default.js",
+    "agentLogName": "/Users/zyy/projects/frontend/demo-vue/config/config.default.js",
+    "errorLogName": "/Users/zyy/projects/frontend/demo-vue/config/config.default.js",
+    "env": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "coreLogger": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
+  },
   "session": {
-    "maxAge": "/Users/hy/demo-vue/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/hy/demo-vue/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/hy/demo-vue/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/hy/demo-vue/node_modules/egg-session/config/config.default.js"
+    "maxAge": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-session/config/config.default.js"
   },
   "helper": {
-    "shtml": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
+    "shtml": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/hy/demo-vue/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/Users/hy/demo-vue/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/Users/hy/demo-vue/node_modules/egg-jsonp/config/config.default.js"
+    "limit": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/hy/demo-vue/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/hy/demo-vue/node_modules/egg-onerror/config/config.default.js",
-    "templatePath": "/Users/hy/demo-vue/node_modules/egg-onerror/config/config.default.js"
+    "errorPageUrl": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/hy/demo-vue/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Users/hy/demo-vue/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Users/hy/demo-vue/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Users/hy/demo-vue/node_modules/egg-i18n/config/config.default.js",
-    "cookieDomain": "/Users/hy/demo-vue/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/hy/demo-vue/node_modules/egg-i18n/config/config.default.js"
+    "defaultLocale": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/hy/demo-vue/node_modules/egg-watcher/config/config.local.js",
+    "type": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-watcher/config/config.default.js",
     "eventSources": {
-      "default": "/Users/hy/demo-vue/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Users/hy/demo-vue/node_modules/egg-watcher/config/config.default.js"
+      "default": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-watcher/config/config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "/Users/hy/demo-vue/node_modules/egg-schedule/config/config.default.js",
-      "file": "/Users/hy/demo-vue/node_modules/egg-schedule/config/config.default.js"
+      "consoleLevel": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-schedule/config/config.default.js"
     }
   },
   "schedule": {
-    "directory": "/Users/hy/demo-vue/node_modules/egg-schedule/config/config.default.js"
+    "directory": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-schedule/config/config.default.js"
   },
   "multipart": {
-    "mode": "/Users/hy/demo-vue/node_modules/egg-multipart/config/config.default.js",
-    "autoFields": "/Users/hy/demo-vue/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/hy/demo-vue/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/hy/demo-vue/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/hy/demo-vue/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/hy/demo-vue/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/hy/demo-vue/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/hy/demo-vue/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/hy/demo-vue/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/hy/demo-vue/node_modules/egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/hy/demo-vue/node_modules/egg-multipart/config/config.default.js",
+    "mode": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/config/config.default.js",
     "cleanSchedule": {
-      "cron": "/Users/hy/demo-vue/node_modules/egg-multipart/config/config.default.js"
+      "cron": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-multipart/config/config.default.js"
     }
-  },
-  "development": {
-    "watchDirs": "/Users/hy/demo-vue/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/hy/demo-vue/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/hy/demo-vue/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/hy/demo-vue/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/Users/hy/demo-vue/node_modules/egg-development/config/config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/hy/demo-vue/node_modules/egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/hy/demo-vue/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/hy/demo-vue/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/hy/demo-vue/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/hy/demo-vue/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/hy/demo-vue/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/hy/demo-vue/node_modules/egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "/Users/hy/demo-vue/node_modules/egg-static/config/config.default.js",
-    "dir": "/Users/hy/demo-vue/node_modules/egg-static/config/config.default.js",
-    "dynamic": "/Users/hy/demo-vue/node_modules/egg-static/config/config.default.js",
-    "preload": "/Users/hy/demo-vue/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/hy/demo-vue/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/hy/demo-vue/node_modules/egg-static/config/config.default.js"
+    "prefix": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-static/config/config.prod.js",
+    "maxFiles": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-static/config/config.default.js",
+    "maxAge": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-static/config/config.prod.js"
   },
   "view": {
-    "root": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/hy/demo-vue/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js",
-    "mapping": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js"
+    "root": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg-view/config/config.default.js"
   },
-  "env": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-  "name": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-  "proxy": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-  "maxProxyCount": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
+  "env": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+  "name": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
   "pkg": {
-    "name": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "version": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "description": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "main": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
+    "name": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "version": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "description": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "main": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
     "scripts": {
-      "test": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "dev": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "build": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "build:server": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "build:client": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "clean": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "dev:client": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "start": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+      "test": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "dev": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "build": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "build:server": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "build:client": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "clean": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "dev:client": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "start": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
     },
-    "author": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "license": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
+    "author": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "license": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
     "dependencies": {
-      "axios": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "cross-env": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "egg": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "egg-view-nunjucks": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "vue": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "vue-meta": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "vue-router": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "vue-server-renderer": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "vue-template-compiler": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "vuex": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+      "axios": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "egg": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "vue": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "vue-meta": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "vue-router": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "vue-server-renderer": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "vue-template-compiler": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "vuex": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "@babel/core": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "@babel/preset-env": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "autoprefixer": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "babel-helper-vue-jsx-merge-props": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "babel-loader": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "babel-plugin-syntax-jsx": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "babel-plugin-transform-vue-jsx": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "css-loader": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "egg-bin": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "extract-text-webpack-plugin": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "file-loader": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "html-webpack-plugin": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "memory-fs": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "mini-css-extract-plugin": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "postcss-loader": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "rimraf": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "style-loader": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "url-loader": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "vue-loader": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "webpack": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "webpack-cli": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "webpack-dev-server": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "webpack-merge": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+      "@babel/core": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "@babel/preset-env": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "babel-helper-vue-jsx-merge-props": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "babel-loader": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "babel-plugin-syntax-jsx": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-vue-jsx": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "css-loader": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "extract-text-webpack-plugin": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "file-loader": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "html-webpack-plugin": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "memory-fs": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "mini-css-extract-plugin": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "postcss-loader": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "rimraf": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "style-loader": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "url-loader": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "vue-loader": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "webpack": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "webpack-cli": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "webpack-dev-server": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "webpack-merge": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
     }
   },
-  "baseDir": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-  "HOME": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-  "rundir": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
+  "baseDir": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
   "dump": {
-    "ignore": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+    "ignore": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "notFound": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "sitefile": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "middlewares": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "httpClient": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+    "bodyparser": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+    "pageUrl": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "formLimit": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "jsonLimit": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "strict": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
+    "enable": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "strict": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "depth": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+      "arrayLimit": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "depth": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
     },
-    "onerror": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
-  },
-  "logger": {
-    "dir": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "env": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "level": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "outputJSON": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "appLogName": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "coreLogName": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "agentLogName": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "errorLogName": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "coreLogger": {
-      "consoleLevel": "/Users/hy/demo-vue/node_modules/egg/config/config.local.js"
-    },
-    "allowDebugAtProd": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+    "onerror": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "dnsCacheLookupInterval": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
     "request": {
-      "timeout": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+      "timeout": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "logging": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+    "enable": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "logging": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
   },
-  "coreMiddleware": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-  "serverTimeout": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
+  "coreMiddleware": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "port": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+      "path": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "port": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "responseTimeout": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+    "maxWaitTime": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
   },
-  "onClientError": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
+  "onClientError": "/Users/zyy/projects/frontend/demo-vue/node_modules/egg/config/config.default.js"
 }
