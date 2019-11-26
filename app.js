@@ -45,7 +45,7 @@ async function handleSSR() {
 const renderer =createBundleRenderer(
   path.join(__dirname, './server-build/vue-ssr-server-bundle.json'),
   {
-    inject: false,
+    template,
     clientManifest
   }
 ) 

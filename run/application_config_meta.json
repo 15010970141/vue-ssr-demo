@@ -22,7 +22,7 @@
     "protocolWhiteList": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
     "defaultMiddleware": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
     "hsts": {
-      "enable": "/Users/hy/demo-vue/node_modules/egg-security/config/config.local.js",
+      "enable": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
       "maxAge": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js",
       "includeSubdomains": "/Users/hy/demo-vue/node_modules/egg-security/config/config.default.js"
     },
@@ -83,7 +83,7 @@
     "cookieMaxAge": "/Users/hy/demo-vue/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/hy/demo-vue/node_modules/egg-watcher/config/config.local.js",
+    "type": "/Users/hy/demo-vue/node_modules/egg-watcher/config/config.default.js",
     "eventSources": {
       "default": "/Users/hy/demo-vue/node_modules/egg-watcher/config/config.default.js",
       "development": "/Users/hy/demo-vue/node_modules/egg-watcher/config/config.default.js"
@@ -114,13 +114,6 @@
       "cron": "/Users/hy/demo-vue/node_modules/egg-multipart/config/config.default.js"
     }
   },
-  "development": {
-    "watchDirs": "/Users/hy/demo-vue/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/hy/demo-vue/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/hy/demo-vue/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/hy/demo-vue/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/Users/hy/demo-vue/node_modules/egg-development/config/config.default.js"
-  },
   "logrotator": {
     "filesRotateByHour": "/Users/hy/demo-vue/node_modules/egg-logrotator/config/config.default.js",
     "hourDelimiter": "/Users/hy/demo-vue/node_modules/egg-logrotator/config/config.default.js",
@@ -135,12 +128,13 @@
     "dir": "/Users/hy/demo-vue/node_modules/egg-static/config/config.default.js",
     "dynamic": "/Users/hy/demo-vue/node_modules/egg-static/config/config.default.js",
     "preload": "/Users/hy/demo-vue/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/hy/demo-vue/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/hy/demo-vue/node_modules/egg-static/config/config.default.js"
+    "buffer": "/Users/hy/demo-vue/node_modules/egg-static/config/config.prod.js",
+    "maxFiles": "/Users/hy/demo-vue/node_modules/egg-static/config/config.default.js",
+    "maxAge": "/Users/hy/demo-vue/node_modules/egg-static/config/config.prod.js"
   },
   "view": {
     "root": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/hy/demo-vue/node_modules/egg-view/config/config.local.js",
+    "cache": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js",
     "defaultExtension": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js",
     "defaultViewEngine": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js",
     "mapping": "/Users/hy/demo-vue/node_modules/egg-view/config/config.default.js"
@@ -253,9 +247,7 @@
     "coreLogName": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
     "agentLogName": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
     "errorLogName": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
-    "coreLogger": {
-      "consoleLevel": "/Users/hy/demo-vue/node_modules/egg/config/config.local.js"
-    },
+    "coreLogger": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js",
     "allowDebugAtProd": "/Users/hy/demo-vue/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
